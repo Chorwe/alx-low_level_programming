@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -S $CGILE -o ${CFILE%.c}.s
+CFILE=$1
+gcc -S $CFILE -o ${CFILE%.*}.s
