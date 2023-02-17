@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -S $CGILE -o ${CFILE%.c}.s
