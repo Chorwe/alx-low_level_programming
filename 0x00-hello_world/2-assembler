@@ -1,3 +1,2 @@
 #!/bin/bash
-CFILE=$1
-gcc -S $CFILE -o ${CFILE%.*}.s
+gcc -S $CFILE
