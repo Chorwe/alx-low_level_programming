@@ -1,22 +1,19 @@
 #include <stdio.h>
 
-int prev = 1;
-int curr = 2;
-int temp = 0;
-
 int main() {
-    long sum = 0;
+    int sum = 0;
+    int prev = 1;
+    int curr = 2;
 
-    while (curr < 4000000) {
+    while (curr <= 4000000) {
         if (curr % 2 == 0) {
             sum += curr;
         }
-        temp = curr;
+        int temp = curr;
         curr += prev;
         prev = temp;
     }
 
-    printf("%ld\n", sum);
-
+    printf("%d\n", sum);
     return 0;
 }
