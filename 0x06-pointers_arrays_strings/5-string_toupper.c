@@ -14,12 +14,3 @@ char *string_toupper(char *str)
 
     return str;
 }
-
-int main(void)
-{
-    char str[] = "hello, world!";
-    printf("Original string: %s\n", str);
-    string_toupper(str);
-    printf("Uppercase string: %s\n", str);
-    return 0;
-}
