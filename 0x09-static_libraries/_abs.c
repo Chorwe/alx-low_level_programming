@@ -1,4 +1,4 @@
-int _abs(int n);
+int _abs(void)
 {
     /* TODO: Implement this function */
     return (0);

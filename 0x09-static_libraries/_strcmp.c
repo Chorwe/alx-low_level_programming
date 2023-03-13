@@ -1,4 +1,4 @@
-int _strcmp(char *s1, char *s2);
+int _strcmp(void)
 {
     /* TODO: Implement this function */
     return (0);

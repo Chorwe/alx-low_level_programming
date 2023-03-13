@@ -1,4 +1,4 @@
-unsigned int _strspn(char *s, char *accept);
+unsigned int _strspn(void)
 {
     /* TODO: Implement this function */
     return (0);

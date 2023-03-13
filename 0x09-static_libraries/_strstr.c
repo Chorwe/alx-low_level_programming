@@ -1,4 +1,4 @@
-char *_strstr(char *haystack, char *needle);
+char *_strstr(void)
 {
     /* TODO: Implement this function */
     return (0);

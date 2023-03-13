@@ -1,4 +1,4 @@
-char *_strchr(char *s, char c);
+char *_strchr(void)
 {    
     /* TODO: Implement this function */
  

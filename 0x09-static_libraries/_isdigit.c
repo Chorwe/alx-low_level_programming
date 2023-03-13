@@ -1,4 +1,4 @@
-int _isdigit(int c);
+int _isdigit(void)
 {
     /* TODO: Implement this function */
     return (0);

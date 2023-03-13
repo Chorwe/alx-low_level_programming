@@ -1,4 +1,4 @@
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(void)
 {
     /* TODO: Implement this function */
     return (0);

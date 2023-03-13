@@ -1,4 +1,4 @@
-int _putchar(char c)
+int _putchar(void)
 {
     /* function code */
 	 return (0);

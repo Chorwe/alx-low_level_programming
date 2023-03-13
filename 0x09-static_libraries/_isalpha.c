@@ -1,4 +1,4 @@
-int _isalpha(int c);
+int _isalpha(void)
 {
     /* TODO: Implement this function */
     return (0);

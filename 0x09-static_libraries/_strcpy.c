@@ -1,4 +1,4 @@
-char *_strcpy(char *dest, char *src);
+char *_strcpy(void)
 {
     /* TODO: Implement this function */
     return (0);
